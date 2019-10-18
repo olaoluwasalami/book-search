@@ -10,7 +10,7 @@ const searchBook = () => {
         success: function (result) {
             console.log(result);
             $('.search-results').text('');
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 7; i++) {
                 $('.search-results').append('<h3><a target="_blank" href=" ' + result.items[i].volumeInfo.previewLink + '">' + result.items[i].volumeInfo.title + ' </a></h3>');
                 $('.search-results').append('<h5> Author: '  + result.items[i].volumeInfo.authors + '</h5>');          
                 $('.search-results').append('<img src="  ' + result.items[i].volumeInfo.imageLinks.thumbnail + '"/>');
