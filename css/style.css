@@ -21,7 +21,7 @@ h1 {
     -moz-box-shadow: 10px 10px 5px 0px rgba(69, 8, 69, 1);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22);
-    width: 50%;
+    width: 80%;
     height: 20%;
         
 }
@@ -50,4 +50,15 @@ article{
 
 
 .form {
-    padding: 15% 0% 15% 30%;}
+    padding: 15% 0% 15% 30%;
+}
+
+    /* mobile devices */
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       .boxed {
+    width: 100% !important       
+    }
+
+       /* Styles */
+   }
