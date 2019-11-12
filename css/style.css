@@ -50,7 +50,8 @@ article{
 
 
 .form {
-    padding: 15% 0% 15% 30%;
+    padding: 15%;
+    tex
 }
 
     /* mobile devices */
@@ -59,6 +60,5 @@ article{
        .boxed {
     width: 100% !important       
     }
-
-       /* Styles */
+     /* Styles */
    }
